@@ -18,6 +18,7 @@
 		5220AC272ADEB614003F0E39 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220AC262ADEB614003F0E39 /* ResultView.swift */; };
 		5220AC2E2ADEE42A003F0E39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220AC2D2ADEE42A003F0E39 /* HomeView.swift */; };
 		5220AC302ADEE6EA003F0E39 /* NewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220AC2F2ADEE6EA003F0E39 /* NewsCard.swift */; };
+		5220AC322ADF021D003F0E39 /* SemesterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220AC312ADF021D003F0E39 /* SemesterCard.swift */; };
 		52355B852AB6558D0059FE46 /* swift_tutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52355B842AB6558D0059FE46 /* swift_tutApp.swift */; };
 		52355B872AB6558D0059FE46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52355B862AB6558D0059FE46 /* ContentView.swift */; };
 		52355B892AB6558E0059FE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52355B882AB6558E0059FE46 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		5220AC262ADEB614003F0E39 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		5220AC2D2ADEE42A003F0E39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5220AC2F2ADEE6EA003F0E39 /* NewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCard.swift; sourceTree = "<group>"; };
+		5220AC312ADF021D003F0E39 /* SemesterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemesterCard.swift; sourceTree = "<group>"; };
 		52355B812AB6558D0059FE46 /* swift-tut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-tut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52355B842AB6558D0059FE46 /* swift_tutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_tutApp.swift; sourceTree = "<group>"; };
 		52355B862AB6558D0059FE46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			children = (
 				52DD93FC2ADE9EAB00288D1E /* QuickAccess.swift */,
 				5220AC2F2ADEE6EA003F0E39 /* NewsCard.swift */,
+				5220AC312ADF021D003F0E39 /* SemesterCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				5220AC232ADEB5CE003F0E39 /* TimetableView.swift in Sources */,
 				52355B872AB6558D0059FE46 /* ContentView.swift in Sources */,
 				5220AC302ADEE6EA003F0E39 /* NewsCard.swift in Sources */,
+				5220AC322ADF021D003F0E39 /* SemesterCard.swift in Sources */,
 				5220AC2E2ADEE42A003F0E39 /* HomeView.swift in Sources */,
 				52355B852AB6558D0059FE46 /* swift_tutApp.swift in Sources */,
 				5220AC192ADEB556003F0E39 /* ProfileView.swift in Sources */,

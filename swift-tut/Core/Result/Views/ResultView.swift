@@ -21,8 +21,45 @@ struct ResultView: View {
             }
             .foregroundColor(.white)
             .padding(.horizontal)
+            VStack(){
+                Text("Select a semester")
+                    .font(.title2)
+                    .foregroundColor(Color(hex:"f610b0d"))
+                    .padding(.top,20)
+                Divider()
+                ScrollView(showsIndicators: false){
+                   SemesterCard(
+                   year: "Year 3, Second Semester",
+                   date: "2022/2023"
+                   )
+                   SemesterCard(
+                   year: "Year 3, First Semester",
+                   date: "2022/2023"
+                   )
+                   SemesterCard(
+                   year: "Year 2, Second Semester",
+                   date: "2021/2022"
+                   )
+                   SemesterCard(
+                   year: "Year 2, First Semester",
+                   date: "2021/2022"
+                   )
+                    SemesterCard(
+                   year: "Year 1, Second Semester",
+                   date: "2020/2021"
+                   )
+                   SemesterCard(
+                   year: "Year 1, First Semester",
+                   date: "2020/2021"
+                   )
+                   
+                }
+                .padding(20)
+            }
+            .background(.white)
             Spacer()
         }
+        .navigationBarBackButtonHidden(true)
         .background(Color(hex: "ff6b0b02").edgesIgnoringSafeArea(.top))
     }
 }
