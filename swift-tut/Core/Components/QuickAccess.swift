@@ -7,12 +7,14 @@
 
 import SwiftUI
 
-struct QuickAccess: View {
-     var icon: String;
-     var action: String;
-     var name: String;
+struct QuickAccess<Content: View>: View {
+     var icon: String
+     var action: String
+     var name: String
+    var destination: Content
+    
     var body: some View {
-        HStack{
+        NavigationLink(destination: destination) {
             VStack(alignment: .leading, spacing: 5){
                 Image(systemName: icon)
                 VStack(alignment: .leading) {
@@ -21,10 +23,12 @@ struct QuickAccess: View {
                 }
                 
             }
-            .frame(width: 120, height: 100)
-            .background(Color(hex: "ff3e9e9"))
-            .cornerRadius(12)
+          
         }
+        .frame(width: 110, height: 100)
+        .foregroundColor(Color(hex:"f610b0d"))
+        .background(Color(hex: "ff3e9e9"))
+        .cornerRadius(12)
     }
 }
 

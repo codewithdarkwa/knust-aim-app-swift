@@ -9,7 +9,21 @@ import SwiftUI
 
 struct ResultView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            HStack {
+                Text("Results")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                Spacer()
+                Image(systemName: "bell")
+                Image(systemName: "line.3.horizontal")
+                    
+            }
+            .foregroundColor(.white)
+            .padding(.horizontal)
+            Spacer()
+        }
+        .background(Color(hex: "ff6b0b02").edgesIgnoringSafeArea(.top))
     }
 }
 
