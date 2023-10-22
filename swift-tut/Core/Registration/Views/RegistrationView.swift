@@ -49,7 +49,7 @@ struct RegistrationView: View {
                 .background(Color(hex: "ff3e9e9"))
                 .cornerRadius(12)
                 VStack(alignment: .leading, spacing: 5){
-                    Image(systemName: "bell")
+                    Image(systemName: "text.book.closed")
                     VStack(alignment: .leading) {
                         Text("Get \nRegistration Slip")
                             
